@@ -1,9 +1,10 @@
 # Sample_polling_system
 
 ### Authors:
-- [Anass BAIROUK](https://www.linkedin.com/in/anass-bairouk-258673109/)
 - [Fatima-zahra BANANI]()
 - [Safaa KHADIM](https://www.linkedin.com/in/safaa-khadim-b06b75167/)
+- [Anass BAIROUK](https://www.linkedin.com/in/anass-bairouk-258673109/)
+
 
 ### Supervised by: 
 - [Dr. Mahmoud EL HAMLAOUI](https://www.linkedin.com/in/mahmoud-el-hamlaoui-466b8617/) 
