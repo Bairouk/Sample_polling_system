@@ -7,138 +7,357 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a60e7afb-f92f-4357-ba2d-f8f4845167b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/_admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/_choice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/_person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/_poll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/_user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/_vote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/metier/_admin_dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/metier/_choice_dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/metier/_poll_dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/metier/_user_dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/metier/_user_dao_impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/metier/_vote_dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/_test_metier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/_controler_servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/_login_servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/montserrat/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/froget_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/img-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/animate/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/tilt/tilt.jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azerf Poll.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample_polling_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sample_polling_system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Sample_polling_system_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Sample_polling_system_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/db_interaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/db_interaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md~c6200005ca360ad762ca6ee74b68987111d23dee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/DAO/db_interaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/entities/_admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/entities/_choice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/entities/_person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/entities/_poll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/entities/_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/entities/_vote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/metier/_admin_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/metier/_choice_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/metier/_poll_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/metier/_user_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/metier/_user_dao_impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/metier/_vote_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/test/_test_metier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/web/_controler_servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/classes/web/_login_servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/lib/jsp-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/css/util.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/montserrat/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/images/icons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/images/img-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/application.fnc619.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/applicationc619.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/chosen.minc118.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/icheck.minf700.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/jquery-ui.min1ff9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/static/js/jquery.min707e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/themes/default/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/themes/default/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/themes/default/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/themes/default/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/themes/default/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/themes/default/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/themes/default/fonts/glyphicons-halflings-regulard41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/themes/default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/user/forgot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/user/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/user/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/select2/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azerf_Poll_war_exploded/vendor/tilt/tilt.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/DAO/db_interaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/entities/_admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/entities/_choice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/entities/_person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/entities/_poll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/entities/_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/entities/_vote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/metier/_admin_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/metier/_choice_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/metier/_poll_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/metier/_user_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/metier/_user_dao_impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/metier/_vote_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/test/_test_metier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/web/_controler_servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azerf Poll/web/_login_servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/db_interaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/_admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/_choice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/_person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/_poll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/_user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/_vote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/_admin_dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/_choice_dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/_poll_dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/_user_dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/_user_dao_impl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/_vote_dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/_test_metier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/_controler_servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/_login_servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/util.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/montserrat/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/icons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/img-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/application.fnc619.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/applicationc619.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/chosen.minc118.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/icheck.minf700.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/jquery-ui.min1ff9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/jquery.min707e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/fonts/glyphicons-halflings-regulard41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/forgot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/select2/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vendor/tilt/tilt.jquery.min.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,119 +411,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/metier/_user_dao_impl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/_controler_servlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/_login_servlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/froget_password.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="60" column="42" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/metier/_user_dao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/_admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/metier/_admin_dao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/_user.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-              <folding>
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -377,45 +484,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Sample_polling_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sample_polling_system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sample_polling_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sample_polling_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sample_polling_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sample_polling_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="metier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sample_polling_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sample_polling_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sample_polling_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sample_polling_system" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sample_polling_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sample_polling_system" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -426,6 +495,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547055786669" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -454,7 +524,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._test_metier">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.131">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -578,16 +648,18 @@
       <workItem from="1547051292360" duration="1772000" />
       <workItem from="1547056004101" duration="520000" />
       <workItem from="1547117217522" duration="680000" />
+      <workItem from="1547379821142" duration="19000" />
+      <workItem from="1547380001936" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24396000" />
+    <option name="totallyTimeSpent" value="24446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.26729107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.27665707" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -675,16 +747,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/user.java" />
-    <entry file="file://$PROJECT_DIR$/README 6.42.13 PM.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README 6.42.13 PM.md" />
     <entry file="file://$PROJECT_DIR$/src/metier/_vote_dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -736,13 +799,7 @@
     <entry file="file://$PROJECT_DIR$/web/vendor/tilt/tilt.jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e248a2b4-c23c-4f1f-b0ff-5d6093ed31ed/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -814,16 +871,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/froget_password.jsp" />
     <entry file="file://$PROJECT_DIR$/src/metier/_user_dao_impl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/web/_controler_servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -836,35 +892,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/_login_servlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/froget_password.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="279">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
+        <state relative-caret-position="560">
           <caret line="60" column="42" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/metier/_user_dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="391">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />

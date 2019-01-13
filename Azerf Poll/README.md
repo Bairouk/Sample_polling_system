@@ -1,4 +1,5 @@
 # Sample_polling_system
+# Azerf Poll
 
 ### Authors:
 - [Fatima-zahra BANANI]()
@@ -8,7 +9,6 @@
 
 ### Supervised by: 
 - [Dr. Mahmoud EL HAMLAOUI](https://www.linkedin.com/in/mahmoud-el-hamlaoui-466b8617/) 
-
 
 ### Some conventions to follow by team members:
 1. Prefix all functions and variables with an underscore.
