@@ -46,6 +46,13 @@
     <![endif]-->
 </head>
 <body class='dark'>
+
+<%
+    //this one to  prevent the user from going back to the index.jsp after signing
+    if (session.getAttribute("_current_user")!=null){
+        response.sendRedirect("dashboard.jsp");
+    }
+%>
 <section>
     <div class="container">
         <div class="centered form">

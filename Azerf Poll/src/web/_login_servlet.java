@@ -31,7 +31,7 @@ public class _login_servlet extends HttpServlet {
         String path = req.getServletPath();
         System.out.println(path);
 
-        if (path.equals("/user.login")){
+        if (path.equals("/user.login") || path.equals("/user/user.login")){
             String _email = req.getParameter("email");
             System.out.println("here is your email :"+_email);
             String _password = req.getParameter("password");
@@ -41,13 +41,16 @@ public class _login_servlet extends HttpServlet {
             if (_check_user2!=null){
                 System.out.println("This is the right person");
                 ses.setAttribute("_current_user",_check_user2);
-                resp.sendRedirect("userDashboard.jsp");
+                resp.sendRedirect("user/dashboard.jsp");
                 //PrintWriter out = resp.getWriter();
                 //req.setAttribute("user",_check_user);
                 //req.getRequestDispatcher("index.jsp").forward(req,resp);
             }else {
                 System.out.println("this is a null one ");
-                resp.sendRedirect("index.jsp");
+                if (path.equals("/user.login")) {
+                    resp.sendRedirect("index.jsp");
+                }else resp.sendRedirect("login.jsp");
+
             }
         }else if (path.equals("/user/register.login")){
             // TODO add register infos
@@ -71,7 +74,7 @@ public class _login_servlet extends HttpServlet {
             if (_check_user2!=null){
                 System.out.println("This is the right person");
                 ses.setAttribute("_current_user",_check_user2);
-                resp.sendRedirect("userDashboard.jsp");
+                resp.sendRedirect("dashboard.jsp");
                 //PrintWriter out = resp.getWriter();
                 //req.setAttribute("user",_check_user);
                 //req.getRequestDispatcher("index.jsp").forward(req,resp);

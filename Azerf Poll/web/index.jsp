@@ -45,6 +45,12 @@
   <![endif]-->
 </head>
 <body>
+<%
+  //this one to  prevent the user from going back to the index.jsp after signing
+  if (session.getAttribute("_current_user")!=null){
+    response.sendRedirect("user/dashboard.jsp");
+  }
+%>
 <header>
   <div class="navbar" role="navigation">
     <div class="container">
