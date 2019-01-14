@@ -1,6 +1,8 @@
 # Sample_polling_system
 # Azerf Poll
 
+--> The project is inside Azerf poll folder 
+
 ### Authors:
 - [Fatima-zahra BANANI]()
 - [Safaa KHADIM](https://www.linkedin.com/in/safaa-khadim-b06b75167/)
