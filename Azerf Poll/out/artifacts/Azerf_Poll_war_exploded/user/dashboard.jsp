@@ -65,9 +65,10 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://gempixel.com/polls/upgrade" class="active">Upgrade</a></li>
-                        <li><a href="https://gempixel.com/polls/create" class="active">Create your Poll</a></li>
-                        <li><a href="https://gempixel.com/polls/user/logout">Logout</a></li>
+
+                        <li><a href="create_poll.jsp" class="active">Create your Poll</a></li>
+                        <li><a href="user.logout">Logout</a></li>
+
                     </ul>
                 </div>
             </div>

@@ -7,10 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en" prefix="og: http://ogp.me/ns#">
-<!-- Mirrored from gempixel.com/polls/user/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Jan 2019 10:23:29 GMT -->
-<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,10 +16,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
     <meta name="description" content="Login into your account and manage your polls and your subscription." />
     <meta property='og:type' content='website' />
-    <meta property='og:url' content='https://gempixel.com/polls' />
-    <meta property='og:title' content='Login into your account - Premium Poll Script' />
+    <meta property='og:url' content='https://ensias.com' />
+    <meta property='og:title' content='Login into your account - Azerf Poll ' />
     <meta property='og:description' content='Login into your account and manage your polls and your subscription.' />
-    <title>Login into your account - Premium Poll Script</title>
+    <title>Login into your account - Azerf Poll </title>
+
     <link href="../themes/default/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../themes/default/style.css">
     <link rel="stylesheet" type="text/css" href="../themes/default/css/widgets.css">
@@ -35,7 +33,7 @@
     <script type="text/javascript" src="../static/bootstrap.min.js"></script>
     <script type="text/javascript" src="../static/application.fnc619.js?v=1.0"></script>
     <script>
-        var appurl="https://gempixel.com/polls";
+        var appurl="https://ensias.com";
         var token="703dbf82c57d85152e84d99365a0494a";
         var max_count= 10;
 

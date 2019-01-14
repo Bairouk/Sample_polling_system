@@ -60,14 +60,15 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="glyphicon glyphicon-align-justify"></span>
                         </button>
-                        <a class="navbar-brand" href="https://gempixel.com/polls">Premium Poll Script</a>
+                        <a class="navbar-brand" href="https://ensias.com">Azerf Poll </a>
                     </div>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://gempixel.com/polls/upgrade" class="active">Upgrade</a></li>
-                        <li><a href="https://gempixel.com/polls/create" class="active">Create your Poll</a></li>
-                        <li><a href="https://gempixel.com/polls/user/logout">Logout</a></li>
+
+                        <li><a href="create_poll.jsp" class="active">Create your Poll</a></li>
+                        <li><a href="user.logout">Logout</a></li>
+
                     </ul>
                 </div>
             </div>
