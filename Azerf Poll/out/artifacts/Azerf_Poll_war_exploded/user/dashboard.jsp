@@ -60,7 +60,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="glyphicon glyphicon-align-justify"></span>
                         </button>
-                        <a class="navbar-brand" href="https://gempixel.com/polls">Premium Poll Script</a>
+                        <a class="navbar-brand" href="https://ensias.com">Azerf Poll </a>
                     </div>
                 </div>
                 <div class="navbar-collapse collapse">
@@ -132,6 +132,6 @@
         </div>
     </div>
 </section>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://gempixel.com/polls/static/application.js?v=1.0"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="../static/application.js?v=1.0"></script>
 </body>
 </html>
