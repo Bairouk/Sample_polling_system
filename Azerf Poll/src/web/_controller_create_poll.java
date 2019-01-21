@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Map;
-@WebServlet(name = "_controller_create_poll",urlPatterns = {"*.poll"})
+//@WebServlet(name = "_controller_create_poll",urlPatterns = {"*.poll"})
 
 public class _controller_create_poll extends HttpServlet {
 
-    @Override
+   /* @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //todo create new poll and get it's id
         //todo create the choices
@@ -36,5 +36,5 @@ public class _controller_create_poll extends HttpServlet {
     @Override
     public void init() throws ServletException {
         super.init();
-    }
+    }*/
 }

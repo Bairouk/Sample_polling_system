@@ -16,27 +16,39 @@ public class _implPoll implements _interfacePoll {
 		Connection connection=db_interaction._get_connection();
 		try{
 		PreparedStatement ps = connection.prepareStatement
-				("insert into poll( DESCRIPTION, DURATION, CATEGORY, USERID, TYPE) values (?,?,?,?,?)");
+				("insert into poll (Description, Duration, Category, UserId, question, pollDate, numChoice,expires)  " +
+						"values (?,?,?,?,?,?,?,?)");
 		//ps.setInt(1,p.getPollId());
 		ps.setString(1,p.get_description());
 		ps.setInt(2,p.get_duration());
 		ps.setString(3,p.get_category());
 		ps.setInt(4,p.get_user_id());
-		ps.setString(5,p.get_type());
-		ps.executeUpdate();
+		ps.setString(5,p.get_question());
+		ps.setTimestamp(6,p.get_date());
+		ps.setInt(7,p.get_number_choices());
+		ps.setDate(8,p.get_expires());
+
+
+			ps.executeUpdate();
+
 		}catch(SQLException e){
 		e.printStackTrace();
 		}
 	}
 
 	@Override
-	public  ArrayList<_poll>  _search_vote_by_Type(String typ){
+	public ArrayList<_poll> _search_vote_by_Type(String type) {
+		return null;
+	}
+
+	@Override
+	public  ArrayList<_poll>  _search_poll_by_category(String typ){
 		Connection con =db_interaction._get_connection();
 		ArrayList<_poll> listevote= new ArrayList<_poll>();
 		try {
 		PreparedStatement statement =
-				con.prepareStatement("SELECT pollid, description, duration, category," +
-				" userid, type FROM POLL WHERE type=? ");
+				con.prepareStatement("SELECT pollid, description, duration,question ," +
+				" userid, type FROM POLL WHERE  category =? ");
 		statement.setString(1,typ);
 		ResultSet result = statement.executeQuery();
 		
@@ -63,17 +75,13 @@ public class _implPoll implements _interfacePoll {
 				"userid, type FROM POLL WHERE   pollid = (SELECT MAX(pollid) FROM POLL WHERE userid=?) ");
 		statement.setInt(1,i);
 		ResultSet result = statement.executeQuery();
-
 		while (result.next()) {
-
-
 			 p  = new _poll(result.getInt("pollid"), result.getString("description"),
 					 result.getInt("duration"), result.getString("category"),
 					 result.getInt("userid"),result.getString("type"));
 
 
 		}
-
 		System.out.println("last poll selected");
 
 		}catch(SQLException e){
