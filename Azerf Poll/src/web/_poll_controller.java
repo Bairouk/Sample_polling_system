@@ -26,8 +26,8 @@ import java.text.SimpleDateFormat;
 
 public class _poll_controller extends HttpServlet {
 
-    _interfacePoll _new_poll_imp;
-    _interfaceChoice _new_choice;
+    _implPoll _new_poll_imp;
+    _implChoice _new_choice;
 
     @Override
     public void init() throws ServletException {
@@ -38,34 +38,20 @@ public class _poll_controller extends HttpServlet {
     }
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //todo create new poll and get it's id
-        //todo create the choices
-        //todo modify database to control the theme of the poll
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,
+            IOException {
 
         HttpSession ses = request.getSession();
         int _dis_user_id = (int) request.getSession(false).getAttribute("user_id");
 //        System.out.println("here is teh id "+_dis_user_id);
         String path = request.getServletPath();
 
-/*
-        private int _pollId;
-        private String _description;
-        private int _duration;
-        private String _question;
-        private java.sql.Timestamp _date;
-        private String _category;
-        private int _userId;
-        private String _type;
-        private int _number_choices;
-*/
-
         //the user is trying to create a poll
         if (path.equals("/user/create.poll")){
 
             // get the Poll data from the JSP
             _poll _new_poll = new _poll();
-            _new_poll.set_user_id(_dis_user_id);
+            _new_poll.set_userId(_dis_user_id);
             _new_poll.set_description(request.getParameter("question"));
             java.sql.Timestamp  sqlDate = new java.sql.Timestamp(new java.util.Date().getTime());
             _new_poll.set_date(sqlDate);
@@ -78,22 +64,29 @@ public class _poll_controller extends HttpServlet {
             }
             java.sql.Date  _sql_date_eaxpires  = new java.sql.Date(_expires_date);
             _new_poll.set_expires(_sql_date_eaxpires);
+            _new_poll.set_category("No category chosen");
+
+            String [] options = request.getParameterValues("option[]");
+
 
             //add the new poll to the database and get it id of the poll
+            System.out.println("this is the poll infos :  "+_new_poll.toString());
             _new_poll_imp._create_poll(_new_poll);
-            int _poll_id = _new_poll_imp._last_poll_for_user(_dis_user_id).get_pollId();
-            ses.setAttribute("last_poll_id",_poll_id);
+            int _the_poll = _new_poll_imp._last_poll_for_user(_new_poll.get_userId());
+            System.out.println("this is after creating the account :"+_the_poll);
+            ses.setAttribute("last_poll_id",_the_poll);
 
             // this is the poll options you add it to the choice table
             _choice _the_answer = new _choice();
-            _the_answer.set_pollId(_poll_id);
-            String [] options = request.getParameterValues("option[]");
+            _the_answer.set_pollId(_the_poll);
             for(String option : options){
                 _the_answer.set_description(option);
                 _new_choice._add_choice(_the_answer);
             }
 
             //send to display the poll already created
+
+            response.sendRedirect("/Azerf_Poll_war_exploded//"+_the_poll+"/poll.display");
 
 
         }
@@ -105,7 +98,8 @@ public class _poll_controller extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException,
+            IOException {
 
     }
 

@@ -29,5 +29,8 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="jquery-1.12.4" level="application" />
     <orderEntry type="library" name="jquery-ui" level="application" />
+    <orderEntry type="library" name="jstl-impl" level="project" />
+    <orderEntry type="library" name="jstl-1.2" level="project" />
+    <orderEntry type="library" name="java-mail-1.4.4" level="project" />
   </component>
 </module>

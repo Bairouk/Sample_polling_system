@@ -55,9 +55,7 @@ public class _login_servlet extends HttpServlet {
                     resp.sendRedirect("index.jsp");
                 }else resp.sendRedirect("login.jsp");
             }
-
         }else if (path.equals("/user/register.login")){ //this one if we have new user who's trying to register
-
             String _first_name = req.getParameter("firstname");
             String _last_name = req.getParameter("lastname");
             String _email = req.getParameter("email");

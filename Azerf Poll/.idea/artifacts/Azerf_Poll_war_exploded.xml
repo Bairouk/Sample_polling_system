@@ -12,6 +12,11 @@
           <element id="library" level="project" name="mysql-connector-java-8.0.131" />
           <element id="library" level="project" name="jsp-api-2.1" />
           <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="jstl-impl" />
+          <element id="library" level="project" name="jstl-standard" />
+          <element id="library" level="project" name="java-mail-1.4.4" />
         </element>
       </element>
     </root>
