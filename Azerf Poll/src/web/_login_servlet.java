@@ -1,7 +1,9 @@
 package web;
 
 import com.sun.xml.internal.bind.v2.TODO;
+import entities._admin;
 import entities._user;
+import metier._implAdmin;
 import metier._user_dao;
 import metier._user_dao_impl;
 
@@ -18,10 +20,12 @@ import java.io.PrintWriter;
 public class _login_servlet extends HttpServlet {
 
     _user_dao _new_user_dao;
+    _implAdmin new_admin_dao;
     @Override
     public void init() throws ServletException {
         super.init();
         _new_user_dao = new _user_dao_impl();
+        new_admin_dao= new _implAdmin();
     }
 
     @Override
@@ -81,6 +85,24 @@ public class _login_servlet extends HttpServlet {
             }else {
                 System.out.println("this is a null one ");
                 resp.sendRedirect("register.jsp");
+            }
+        }else if (path.equals("/admin.login") || path.equals("/admin/admin.login")){
+            _admin curr_admin=new _admin();
+            String _email = req.getParameter("email");
+            System.out.println("here is your email :"+_email);
+            String _password = req.getParameter("password");
+            curr_admin.set_email(_email);
+            curr_admin.set_password(_password);
+            _admin _check_admin2 = (_admin)new_admin_dao._login(curr_admin);
+            System.out.println("this is your admin "+_check_admin2.toString());
+            //check if the user is valid
+            if (_check_admin2.get_email()!=null){
+                System.out.println("This is the right person");
+                ses.setAttribute("_current_admin",_check_admin2);
+                ses.setAttribute("admin_id",_check_admin2.get_id());
+                resp.sendRedirect("../dashboard.admin");
+            }else {
+                resp.sendRedirect("login.jsp");
             }
         }
 

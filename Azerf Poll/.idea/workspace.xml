@@ -50,7 +50,7 @@
         <item name="poll@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="poll: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="poll: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="admin: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -61,19 +61,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/metier/_implChoice.java">
+        <entry file="file://$PROJECT_DIR$/src/web/_login_servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/admin_polls.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="157" column="82" selection-start-line="157" selection-start-column="82" selection-end-line="157" selection-end-column="82" />
+            <state relative-caret-position="312">
+              <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/poll_display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+            <state relative-caret-position="66">
+              <caret line="38" column="29" selection-start-line="38" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,70 +85,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/_poll_controller.java">
+        <entry file="file://$PROJECT_DIR$/web/admin/navbar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/application.fn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="88" column="16" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/user/dashboard.jsp">
+        <entry file="file://$PROJECT_DIR$/web/themes/default/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="161">
+              <caret line="7" column="55690" selection-start-line="7" selection-start-column="55684" selection-end-line="7" selection-end-column="55690" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user/create_poll_signed_in.jsp">
+        <entry file="file://$PROJECT_DIR$/web/user/result_display.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="132" column="84" selection-start-line="132" selection-start-column="84" selection-end-line="132" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user/display_poll.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="92" column="73" lean-forward="true" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user/create_poll.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4863">
-              <caret line="243" column="36" lean-forward="true" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/_admin_controlleur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="41" column="68" lean-forward="true" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/metier/_user_dao_impl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="37" column="108" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="37" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -164,23 +125,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sidebar</find>
-      <find>create</find>
-      <find>application</find>
-      <find>theme</find>
-      <find>sid</find>
-      <find>embed</find>
-      <find>logout</find>
-      <find>logou</find>
-      <find>mu</find>
-      <find>expires</find>
       <find>collapse</find>
       <find>bootstrap-datetim</find>
       <find>expi</find>
@@ -201,6 +152,16 @@
       <find>date</find>
       <find>Date</find>
       <find>DateTimeFormatter</find>
+      <find>logou</find>
+      <find>log</find>
+      <find>azerf</find>
+      <find>side</find>
+      <find>sideb</find>
+      <find>height</find>
+      <find>document</find>
+      <find>navbar</find>
+      <find>max-heigh</find>
+      <find>in</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -215,17 +176,13 @@
         <option value="$PROJECT_DIR$/web/user/forgot.jsp" />
         <option value="$PROJECT_DIR$/src/web/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/web/static/application.js" />
-        <option value="$PROJECT_DIR$/src/entities/_admin.java" />
         <option value="$PROJECT_DIR$/AzerfPoll/pom.xml" />
         <option value="$PROJECT_DIR$/src/web/_poll_controler.java" />
-        <option value="$PROJECT_DIR$/web/user/dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/user/create_poll.jsp" />
         <option value="$PROJECT_DIR$/web/user/create_poll_signed_in.jsp" />
         <option value="$PROJECT_DIR$/src/test/_test_metier.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/web/_login_servlet.java" />
         <option value="$PROJECT_DIR$/src/web/_controller_create_poll.java" />
-        <option value="$PROJECT_DIR$/src/metier/_implAdmin.java" />
         <option value="$PROJECT_DIR$/src/metier/_implVote.java" />
         <option value="$PROJECT_DIR$/src/metier/_interfaceVote.java" />
         <option value="$PROJECT_DIR$/src/entities/_choice.java" />
@@ -240,11 +197,22 @@
         <option value="$PROJECT_DIR$/src/metier/_interfaceChoice.java" />
         <option value="$PROJECT_DIR$/src/metier/_implChoice.java" />
         <option value="$PROJECT_DIR$/src/metier/_user_dao.java" />
-        <option value="$PROJECT_DIR$/src/web/_admin_controlleur.java" />
         <option value="$PROJECT_DIR$/web/admin/admin_polls.jsp" />
         <option value="$PROJECT_DIR$/src/metier/_implPoll.java" />
         <option value="$PROJECT_DIR$/src/metier/_user_dao_impl.java" />
         <option value="$PROJECT_DIR$/src/web/_poll_controller.java" />
+        <option value="$PROJECT_DIR$/web/admin/Navbar_header.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/53a68ee5-c95b-448a-a7e4-50a265ed93dc/console.sql" />
+        <option value="$PROJECT_DIR$/src/metier/_implAdmin.java" />
+        <option value="$PROJECT_DIR$/src/entities/_admin.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/web/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/src/web/_admin_controlleur.java" />
+        <option value="$PROJECT_DIR$/web/admin/admin_dashboard.jsp" />
+        <option value="$PROJECT_DIR$/src/web/_login_servlet.java" />
+        <option value="$PROJECT_DIR$/web/user/dashboard.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/navbar.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/head.jsp" />
       </list>
     </option>
   </component>
@@ -268,7 +236,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="820" />
@@ -320,13 +288,52 @@
             <path>
               <item name="Azerf Poll" type="b2602c69:ProjectViewProjectNode" />
               <item name="Azerf Poll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="metier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Azerf Poll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Azerf Poll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Azerf Poll" type="b2602c69:ProjectViewProjectNode" />
               <item name="Azerf Poll" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Azerf Poll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Azerf Poll" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Azerf Poll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Azerf Poll" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Azerf Poll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Azerf Poll" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Azerf Poll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Azerf Poll" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Azerf Poll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Azerf Poll" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,7 +361,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548529045826" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548668793491" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -617,12 +624,12 @@
       <workItem from="1548146515778" duration="15509000" />
       <workItem from="1548241165197" duration="11305000" />
       <workItem from="1548512478640" duration="11998000" />
-      <workItem from="1548604216265" duration="1338000" />
+      <workItem from="1548604216265" duration="10160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112130000" />
+    <option name="totallyTimeSpent" value="120952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,10 +641,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7939914" visible="true" weight="0.21829972" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7939914" visible="true" weight="0.21829972" />
       <window_info id="Structure" order="1" sideWeight="0.5007215" side_tool="true" weight="0.22334294" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -647,7 +654,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.083694085" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40125787" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.82251084" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,7 +668,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32578617" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32578617" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32467532" />
       <window_info anchor="bottom" id="Dependency Viewer" order="17" weight="0.18470418" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -721,97 +728,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://MAVEN/Azerf:Azerf Poll:1.0">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>Azerf:Azerf Poll:1.0</OriginalElement>
-          <nodes>
-            <node x="" y="">Azerf:Azerf Poll:1.0</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="55.0" y="18.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/_poll_controler.java" />
-    <entry file="file://$PROJECT_DIR$/web/static/loader.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="das://53a68ee5-c95b-448a-a7e4-50a265ed93dc/schema/poll/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/excanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/icheck.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/application.fn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/default/css/bootstrap-datetimepicker.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/bootstrap-datetimepicker.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/default/jquery-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3335" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/_person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/_user.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-605">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/_test_metier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -823,30 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-242">
           <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/forgot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="33" column="88" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="33" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/LogoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/metier/_implAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -873,13 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282">
           <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="97" column="46" selection-start-line="97" selection-end-line="98" />
         </state>
       </provider>
     </entry>
@@ -922,17 +807,6 @@
           <folding>
             <element signature="e#817#818#0" expanded="true" />
             <element signature="e#846#847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/result_display.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2254">
-          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5554#5560#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1005,19 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/_login_servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/_poll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1047,34 +908,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/metier/_user_dao_impl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/_admin_controlleur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="41" column="68" lean-forward="true" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/metier/_implChoice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/create_poll.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4863">
-          <caret line="243" column="36" lean-forward="true" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -1099,30 +936,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/poll_display.java">
+    <entry file="file://$PROJECT_DIR$/src/web/LogoutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+        <state relative-caret-position="506">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/create_poll.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="39" column="84" selection-start-line="28" selection-start-column="4" selection-end-line="39" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://53a68ee5-c95b-448a-a7e4-50a265ed93dc/schema/poll/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/admin_login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53a68ee5-c95b-448a-a7e4-50a265ed93dc/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" selection-start-column="73" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/metier/_user_dao_impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="130" column="5" selection-start-line="108" selection-start-column="4" selection-end-line="130" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/_admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://53a68ee5-c95b-448a-a7e4-50a265ed93dc/schema/poll/table/admin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/Navbar_header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/_poll_controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/metier/_implAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/_admin_controlleur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/default/css/widgets.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/poll_display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="38" column="29" selection-start-line="38" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/application.fn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/_login_servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/result_display.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="37" column="108" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="37" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/forgot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="33" column="88" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="33" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1009">
+          <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/admin_dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/user/dashboard.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="-366">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/default/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="55690" selection-start-line="7" selection-start-column="55684" selection-end-line="7" selection-end-column="55690" />
         </state>
       </provider>
     </entry>
