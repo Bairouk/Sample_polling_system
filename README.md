@@ -2,6 +2,7 @@
 # Azerf Poll
 
 --> The project is inside Azerf poll folder 
+--> This is a native JEE polling system application build by ENSIAS students as a school project 
 
 ### Authors:
 - [Fatima-zahra BANANI]()
