@@ -75,15 +75,71 @@ public class _admin_controlleur extends HttpServlet {
                 req.setAttribute("poll_metier", _poll_metier);
                 req.getRequestDispatcher("admin/admin_polls.jsp").forward(req, resp);
 
-            } else if (path.equals("/settings.admin")) {
+            }else if (path.equals("/settings.admin")) {
+                _user_model user_model = new _user_model();
+                _poll_model poll_model = new _poll_model();
+                _admin_model admin_model = new _admin_model();
+                user_model.setNumber_of_users(_user_metier._get_number_of_users());
+                // poll_model.setAll_polls(_poll_metier._get_all_polls());
+                poll_model.setNumber_of_polls(_poll_metier._get_number_of_polls());
+                admin_model.setAll_admins(_admin_metier._get_all_admins());
+                req.setAttribute("user_model", user_model);
+                req.setAttribute("poll_model", poll_model);
+                req.setAttribute("poll_metier", _poll_metier);
+                req.setAttribute("admin_model", admin_model);
+                req.getRequestDispatcher("admin/admin_setting.jsp").forward(req, resp);
+
+            } else if(path.equals("/Add_Admin.admin")) {
                 _user_model user_model = new _user_model();
                 _poll_model poll_model = new _poll_model();
                 user_model.setNumber_of_users(_user_metier._get_number_of_users());
+
                 // poll_model.setAll_polls(_poll_metier._get_all_polls());
                 poll_model.setNumber_of_polls(_poll_metier._get_number_of_polls());
                 req.setAttribute("user_model", user_model);
                 req.setAttribute("poll_model", poll_model);
                 req.setAttribute("poll_metier", _poll_metier);
+                req.getRequestDispatcher("admin/admin_add_admin.jsp").forward(req, resp);
+
+
+            } else if(path.equals("/add_admin_2.admin")) {
+                String email= req.getParameter("email");
+                String password = req.getParameter("password");
+                String cpassword = req.getParameter("cpassword");
+                if (password.equals(cpassword)) {
+                    _admin admin = new _admin();
+                    admin.set_email(email);
+                    admin.set_password(password);
+                    _admin_metier._add_admin(admin);
+                }
+                _user_model user_model = new _user_model();
+                _poll_model poll_model = new _poll_model();
+                _admin_model admin_model = new _admin_model();
+                user_model.setNumber_of_users(_user_metier._get_number_of_users());
+                // poll_model.setAll_polls(_poll_metier._get_all_polls());
+                poll_model.setNumber_of_polls(_poll_metier._get_number_of_polls());
+                admin_model.setAll_admins(_admin_metier._get_all_admins());
+                req.setAttribute("user_model", user_model);
+                req.setAttribute("poll_model", poll_model);
+                req.setAttribute("poll_metier", _poll_metier);
+                req.setAttribute("admin_model", admin_model);
+                resp.sendRedirect("settings.admin");
+
+            } else if (path.equals("/settings.admin")) {
+                _user_model user_model = new _user_model();
+                _poll_model poll_model = new _poll_model();
+                _admin_model admin_model = new _admin_model();
+                int admin_id = (int) req.getSession(false).getAttribute("admin_id") ; // add session_id
+                user_model.setNumber_of_users(_user_metier._get_number_of_users());
+                // poll_model.setAll_polls(_poll_metier._get_all_polls());
+                poll_model.setNumber_of_polls(_poll_metier._get_number_of_polls());
+                admin_model.setAll_admins(_admin_metier._get_all_admins());
+                admin_model.setAdmin_id(admin_id);
+                req.setAttribute("user_model", user_model);
+                req.setAttribute("poll_model", poll_model);
+                req.setAttribute("poll_metier", _poll_metier);
+                req.setAttribute("admin_model", admin_model);
+                System.out.println(admin_model.getAdmin_id());
                 req.getRequestDispatcher("admin/admin_setting.jsp").forward(req, resp);
 
             } else if (path.equals("/users_check.admin")) {
@@ -168,6 +224,30 @@ public class _admin_controlleur extends HttpServlet {
                 req.setAttribute("poll_metier", _poll_metier);
                 resp.sendRedirect("polls.admin");
 
+            }else if(path.equals("/update_admin.admin")) {
+                String email= req.getParameter("email");
+                String password = req.getParameter("password");
+                String cpassword = req.getParameter("cpassword");
+                int id = Integer.parseInt(req.getParameter("adminid"));
+                if (password.equals(cpassword)) {
+                    _admin admin = new _admin();
+                    admin.set_email(email);
+                    admin.set_password(password);
+                    admin.set_id(id);
+                    _admin_metier._update_admin(admin);
+                }
+                _user_model user_model = new _user_model();
+                _poll_model poll_model = new _poll_model();
+                _admin_model admin_model = new _admin_model();
+                user_model.setNumber_of_users(_user_metier._get_number_of_users());
+                // poll_model.setAll_polls(_poll_metier._get_all_polls());
+                poll_model.setNumber_of_polls(_poll_metier._get_number_of_polls());
+                admin_model.setAll_admins(_admin_metier._get_all_admins());
+                req.setAttribute("user_model", user_model);
+                req.setAttribute("poll_model", poll_model);
+                req.setAttribute("poll_metier", _poll_metier);
+                req.setAttribute("admin_model", admin_model);
+                resp.sendRedirect("settings.admin");
             }
         }
 

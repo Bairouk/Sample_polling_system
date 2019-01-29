@@ -51,6 +51,12 @@
     <![endif]-->
 </head>
 <body class='dark'>
+<%
+    //this one to  prevent the any user from going back to the dashboard.jsp if he didn't login
+    if (session.getAttribute("_current_user")==null){
+        response.sendRedirect("../index.jsp");
+    }
+%>
 <header>
     <div class="navbar" role="navigation">
         <div class="container">
@@ -64,9 +70,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav pull-right">
-                    <li><a href="https://gempixel.com/polls/upgrade" class="active">Upgrade</a></li>
-                    <li><a href="https://gempixel.com/polls/user">My Account</a></li>
-                    <li><a href="https://gempixel.com/polls/user/settings">Settings</a></li>
+                    <li><a href="dashboard.jsp">My Account</a></li>
+                    <li><a href="settings.user">Settings</a></li>
                     <li><a href="user.logout">Logout</a></li>
                 </ul>
             </div>

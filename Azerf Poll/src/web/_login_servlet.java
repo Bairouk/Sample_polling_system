@@ -43,7 +43,7 @@ public class _login_servlet extends HttpServlet {
             String _password = req.getParameter("password");
             _check_user.set_email(_email);
             _check_user.set_password(_password);
-            _user _check_user2 = (_user) _new_user_dao._login(_check_user);
+            _user _check_user2 =  _new_user_dao._login(_check_user);
             //check if the user is valid
             if (_check_user2!=null){
                 System.out.println("This is the right person");

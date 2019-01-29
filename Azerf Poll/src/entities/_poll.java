@@ -13,6 +13,19 @@ public class _poll implements Serializable {
 	private String _category;
 	private int _userId;
 
+	public _poll(int pollId) {
+		_pollId =pollId;
+	}
+
+	public _poll(int pollId, String description, java.sql.Date expires, String category, int userId ) {
+		super();
+		_pollId = pollId;
+		_description = description;
+		_category = category;
+		_userId = userId;
+		_expires = expires;
+	}
+
 
 	public _poll() {
 	}
@@ -76,6 +89,14 @@ public class _poll implements Serializable {
 	}
 	public void set_user_id(int userId) {
 		_userId = userId;
+	}
+	public  Object clone(){
+		try {
+			return super.clone();
+		}
+		catch (CloneNotSupportedException e){
+			throw new InternalError();
+		}
 	}
 
 	@Override

@@ -35,6 +35,67 @@ public class _implChoice implements _interfaceChoice {
 		}
 		
 	}
+	@Override
+	public _choice _get_choice_bydescription_andpollid(int pollid, String description) {
+		Connection con =db_interaction._get_connection();
+		_choice c=new _choice();
+		try {
+			PreparedStatement statement = con.prepareStatement("SELECT choiceid, description, votersnumber, pollid" +
+					" FROM CHOICE WHERE pollid=? AND description=? ");
+			statement.setInt(1,pollid);
+			statement.setString(2,description);
+			ResultSet result = statement.executeQuery();
+
+			while (result.next()) {
+
+
+
+				c= new _choice(result.getInt("choiceid"), result.getString("description"),
+						result.getInt("votersnumber"),
+						result.getInt("pollid"));
+
+			}
+
+			System.out.println("choices selected");
+
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+
+		return c;
+	}
+
+
+	@Override
+	public ArrayList<_choice> _search_choice_for_poll(int id){
+		Connection con =db_interaction._get_connection();
+		ArrayList<_choice> listechoice= new ArrayList<_choice>();
+		try {
+			PreparedStatement statement = con.prepareStatement("SELECT choiceid, description, votersnumber, pollid FROM CHOICE WHERE pollid=? ");
+			statement.setInt(1,id);
+			ResultSet result = statement.executeQuery();
+
+			while (result.next()) {
+
+
+
+				_choice c= new _choice(result.getInt("choiceid"), result.getString("description"), result.getInt("votersnumber"),result.getInt("pollid"));
+				listechoice.add(c);
+
+			}
+
+			System.out.println("choices selected");
+
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+
+
+		return listechoice;
+
+
+	}
 	public ArrayList<_choice> get_choices_by_poll_id(int poll_id){
 		Connection con =db_interaction._get_connection();
 		ArrayList<_choice> list_choices= new ArrayList<_choice>();
@@ -133,6 +194,22 @@ public class _implChoice implements _interfaceChoice {
 			e.printStackTrace();
 		}
 		return choice;
+	}
+	@Override
+	public void _delete_choice(_choice c) {
+		conn = db_interaction._get_connection();
+		PreparedStatement ps;
+		try {
+			ps = conn.prepareStatement("DELETE FROM VOTE WHERE CHOICEID = ?");
+			ps.setLong(1, c.get_choiceId());
+			ps.executeUpdate();
+			ps = conn.prepareStatement("DELETE FROM CHOICE WHERE CHOICEID = ?");
+			ps.setLong(1, c.get_choiceId());
+			ps.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }	
 

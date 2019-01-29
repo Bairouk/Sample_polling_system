@@ -1,6 +1,7 @@
 package metier;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 import entities._choice;
 import entities._poll;
@@ -20,5 +21,9 @@ public interface _interfacePoll {
 	public _user _get_user_of_poll(_poll _p);
 	public int _get_number_of_polls();
 	public _poll _get_poll_by_id(long _id);
+	public void delete_poll(int id);
+	public ArrayList<_poll> _search_vote_by_userid(int id);
+	public ArrayList<_poll> _search_activevote_by_userid(int id, Date date);
+	public ArrayList<_poll> _search_expiredvote_by_userid(int id, Date date);
 
 }
