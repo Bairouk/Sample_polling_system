@@ -57,14 +57,14 @@
             <div class="site_logo">
                 <h3><a href="https://ensias.com">Azerf Poll</a></h3>
             </div>
-            <form method="get" action="resetpword">
+            <form method="post" action="user.forgot">
                 <div class="form-group">
                     <label for="email">Email address
                         <a href="login.jsp" class="pull-right">(Back to login)</a>
                     </label>
                     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
                 </div>
-                <input type='hidden' name='token' /> <button type="submit" class="btn btn-primary">Reset Password</button>
+                <input type='hidden' name='token' value='reset' /> <button type="submit" class="btn btn-primary">Reset Password</button>
             </form>
         </div>
     </div>

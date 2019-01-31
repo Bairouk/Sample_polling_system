@@ -145,7 +145,6 @@
 </br>
 <button name="actionn" value="settings" class="btn btn-info  btn-block">settings</button>
 
-<h3>Account info <span class="label label-primary pull-right"></span></h3>
 <div class="stats">
 <p><span>0</span> Polls</p>
 <p><span>0</span> Votes</p>

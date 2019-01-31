@@ -50,8 +50,8 @@ public class _login_servlet extends HttpServlet {
                 ses.setAttribute("_current_user",_check_user2);
                 ses.setAttribute("user_id",_check_user2.get_id());
                 if (path.equals("/user.login")) {
-                    resp.sendRedirect("user/dashboard.jsp");
-                }else resp.sendRedirect("dashboard.jsp");
+                    resp.sendRedirect("user/dashboard.user");
+                }else resp.sendRedirect("dashboard.user");
             }else {
                 //if the user is not valid we redirect the user to the login page
                 System.out.println("this is a null one ");

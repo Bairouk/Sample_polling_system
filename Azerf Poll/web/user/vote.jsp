@@ -66,7 +66,7 @@
     }
 %>
 
-<form action="_controller_vote" method="post">
+<form action="user.search" method="post">
 <header class="full">
 <div class="navbar" role="navigation">
 <div class="container-fluid">
@@ -103,7 +103,7 @@
 </div>
 </div>
 </div>
-<form action="Controllerdashboard" class="search" id="poll_search_form">
+<form action="user.search" class="search" id="poll_search_form">
 
 <div>
     <div class="pull-left">
@@ -111,24 +111,21 @@
     </div>
     <div>
         <div class="input-group">
-            <input type="text" class="form-control" name="type" placeholder="Search of a poll by type">
+            <input type="text" class="form-control" name="type" placeholder="Search for poll">
             
         </div>
     </div>
 </div>
 
 
-</form>
+</form><br><br>
 <ul class="nav nav-sidebar">
 <li><a href="dashboard.user" class="active"><span class="glyphicon glyphicon-home"></span> Dashboard</a></li>
 <li><a href="activepoll.user" name="action" value="activepoll"><span class="glyphicon glyphicon-th-list"></span> Active Polls</a></li>
 <li><a href="expiredpoll.user" name="action" value="expiredpoll"><span class="glyphicon glyphicon-time"></span> Expired Polls</a></li>
 <li><a href="settings.user"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
 </ul>
-<h3>Account info <span class="label label-primary pull-right">Free</span></h3>
 <div class="stats">
-<p><span>0</span> Polls</p>
-<p><span>0</span> Votes</p>
 </div>
 </div>
 </div>

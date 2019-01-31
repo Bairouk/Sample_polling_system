@@ -16,7 +16,8 @@ import java.util.*;
 /**
  * Servlet implementation class _controler_forgot
  */
-@WebServlet("/_controler_forgot")
+@WebServlet(name = "_controler_forgot",urlPatterns = {"*.forgot"})
+
 public class _controler_forgot extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -58,7 +59,7 @@ public class _controler_forgot extends HttpServlet {
 			}
 		}
 		//response.sendRedirect("user/forgot.jsp");
-		request.getRequestDispatcher("user/forgot.jsp").forward(request, response);
+		request.getRequestDispatcher("forgot.jsp").forward(request, response);
 	}
 
 }

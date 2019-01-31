@@ -5,6 +5,7 @@ package web;
 import entities._choice;
 import entities._poll;
 import entities._user;
+import entities._vote;
 import metier._implChoice;
 import metier._implPoll;
 import metier._interfaceChoice;

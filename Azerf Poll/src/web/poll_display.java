@@ -45,7 +45,7 @@ public class poll_display  extends HttpServlet {
         int da_id = Integer.parseInt(da_splited_path[1]);
         ses.setAttribute("curr_poll",da_id);
         _poll da_poll = poll_dao._get_poll_by_id(da_id);
-        if(da_poll.get_expires().getTime() >= System.currentTimeMillis()){
+        if(da_poll.get_expires().getTime() >= System.currentTimeMillis() || _dis_user_id==da_poll.get_user_id()){
             System.out.println(""+da_poll.get_expires());
             System.out.println("you can use the poll ok");
             String poll_url ="http://localhost:8080/Azerf_Poll_war_exploded/"+da_splited_path[1]+"/poll.display";
@@ -64,8 +64,8 @@ public class poll_display  extends HttpServlet {
                 request.setAttribute("total_voters",total_voters);
                 request.getRequestDispatcher("../user/result_display.jsp").forward(request, response);
             }
-
-
+        }else {
+            response.sendRedirect("dashboard.user");
 
         }
 

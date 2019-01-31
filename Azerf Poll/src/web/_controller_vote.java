@@ -15,7 +15,7 @@ import metier._implPoll;
 /**
  * Servlet implementation class _controller_vote
  */
-@WebServlet("/user/_controller_vote")
+@WebServlet(name ="_controller_vote",urlPatterns ="*.search")
 public class _controller_vote extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

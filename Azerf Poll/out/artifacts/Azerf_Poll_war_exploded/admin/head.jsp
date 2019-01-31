@@ -28,6 +28,10 @@
 	<%--<script type="text/javascript" src="static/bootstrap.min.js"></script>--%>
 	<script type="text/javascript" src="static/application.fnc619.js?v=1.0"></script>
 
+
+	<%---------------------------------------------------%>
+
+
 	<%--<link href="../themes/default/css/bootstrap.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="../themes/default/style.css">
@@ -37,9 +41,9 @@
 	<script type="text/javascript" src="../static/js/jquery.min.js?v=1.11.0"></script>
 	<script type="text/javascript" src="../static/js/chosen.min.js?v=0.8.5"></script>
 	<script type="text/javascript" src="../static/js/icheck.min.js?v=1.0.1"></script>
-	<%--<script type="text/javascript" src="../static/js/jquery-ui.min.js?v=1.10.3"></script>--%>
+	<script type="text/javascript" src="../static/js/jquery-ui.min.js?v=1.10.3"></script>
 	<script type="text/javascript" src="../static/bootstrap.min.js"></script>
-	<%--<script type="text/javascript" src="../static/application.fn.js?v=1.0"></script>&ndash;%&gt;--%>
+	<script type="text/javascript" src="../static/application.fn.js?v=1.0"></script>--%>
 
 <script>
 	var appurl = "https://ensias.com";
